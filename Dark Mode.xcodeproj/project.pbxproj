@@ -13,6 +13,9 @@
 		7484A2AC233ABAA60017E622 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7484A2AA233ABAA60017E622 /* Main.storyboard */; };
 		7484A2AE233ABAA90017E622 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7484A2AD233ABAA90017E622 /* Assets.xcassets */; };
 		7484A2B1233ABAA90017E622 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7484A2AF233ABAA90017E622 /* LaunchScreen.storyboard */; };
+		74B9905A233AFAAD0041A2DC /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74B99059233AFAAD0041A2DC /* MainTabBarController.swift */; };
+		74B9905C233AFB2B0041A2DC /* FavouriteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74B9905B233AFB2B0041A2DC /* FavouriteViewController.swift */; };
+		74B9905E233BCBD00041A2DC /* UIColor + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74B9905D233BCBD00041A2DC /* UIColor + Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		7484A2AD233ABAA90017E622 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7484A2B0233ABAA90017E622 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7484A2B2233ABAA90017E622 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		74B99059233AFAAD0041A2DC /* MainTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
+		74B9905B233AFB2B0041A2DC /* FavouriteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouriteViewController.swift; sourceTree = "<group>"; };
+		74B9905D233BCBD00041A2DC /* UIColor + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor + Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +65,9 @@
 				7484A2A4233ABAA60017E622 /* AppDelegate.swift */,
 				7484A2A6233ABAA60017E622 /* SceneDelegate.swift */,
 				7484A2A8233ABAA60017E622 /* ViewController.swift */,
+				74B99059233AFAAD0041A2DC /* MainTabBarController.swift */,
+				74B9905B233AFB2B0041A2DC /* FavouriteViewController.swift */,
+				74B9905D233BCBD00041A2DC /* UIColor + Extension.swift */,
 				7484A2AA233ABAA60017E622 /* Main.storyboard */,
 				7484A2AD233ABAA90017E622 /* Assets.xcassets */,
 				7484A2AF233ABAA90017E622 /* LaunchScreen.storyboard */,
@@ -140,6 +149,9 @@
 			files = (
 				7484A2A9233ABAA60017E622 /* ViewController.swift in Sources */,
 				7484A2A5233ABAA60017E622 /* AppDelegate.swift in Sources */,
+				74B9905A233AFAAD0041A2DC /* MainTabBarController.swift in Sources */,
+				74B9905E233BCBD00041A2DC /* UIColor + Extension.swift in Sources */,
+				74B9905C233AFB2B0041A2DC /* FavouriteViewController.swift in Sources */,
 				7484A2A7233ABAA60017E622 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
